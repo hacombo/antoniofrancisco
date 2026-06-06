@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="PT">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trabalho Individual - ANTONIO FRANCISCO HACOMBO</title>
+	<link rel="stylesheet" type="text/css" href="Estilos.css"> 
+	
+	<!-- 1. MathJax para fórmulas matemáticas -->
+    <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<!-- 2. Cabeçalho -->
+     <header>
+        <h1>O Meu Projecto de HTML</h1>
+        <p>Disciplina: Computadores no Ensino | Professor: Gerson B Hungulu</p>
+    </header>
+
+    <section>
+        <h2>Sobre o Trabalho</h2>
+        <p> O presente trabalho representa uma excelente oportunidade para o desenvolvimento de competências fundamentais na área da programação web. Através da criação de um website pessoal ou académico, tendo a possibilidade de aplicar, de forma prática, os conhecimentos adquiridos sobre <strong>HTML, CSS e JavaScript</strong>, estabelecendo uma ligação entre a teoria abordada nas aulas e a sua implementação em situações práticas. </p>
+
+        <p> De modo geral, a realização deste trabalho contribui para o fortalecimento das competências tecnológicas, do pensamento lógico e da capacidade de aprendizagem autónoma. </p>
+    </section>
+        
+        <section>
+        <h2>Sobre mim</h2>
+        <p>Eu sou o <strong>António Francisco Hacombo</strong> estudante da <strong>Faculdade de Ciencias Sociais e Humanidades "UNINBE", 
+        </strong> sou também técnico de Energia e Instalações Eléctricas.</p>
+
+        <p> De todas as linguagens de programação vistas por mim, acredito que o HTML, embora complexo, está a ser a mais fácil de ser percebida. e aprender mais sobre o HTML está a ser uma experiencia bastante satisfatória e cativante</p>
+    </section>
+
+    <section>
+        <!--3. Exemplo de LaTeX -->
+        <h3>Área Científica (Exemplo de LaTeX)</h3>
+        <h4>Definição de Logaritmo</h4>
+
+        <p>O logaritmo de um número positivo \(b\), numa base positiva \(a\) diferente de 1, é o expoente ao qual a base deve ser elevada para obter o número  \(b\).</p>
+        <p>$$\log_a b = x \iff a^x = b$$</p>
+        <p>Onde:</p>
+        <ul>
+        	<li>\( a > 0 \) e \( a \neq 1 \)  base do logaritmo;</li>
+        	<li>\( b > 0 \)  logaritmando;</li>
+        	<li>\( x \)  expoente ou valor do  logaritmo;</li>
+        </ul>
+        <p>Exemplo:</p>
+        <p>$$\log_2 8 = 3 \iff 2^3 = 8$$</p>
+        <p>Isso significa que o logaritmo de 8 na base 2 é 3, porque 2 elevado a 3 é igual a 8.</p>
+    </section>
+
+    <section style="text-align: center;">
+        <h2>Informações do Estudante</h2>
+        <button id="btnEquipa" class="btn-equipa">Ver dados</button>    
+    </section>
+
+    <!--2 Estrutura da Janela Modal -->
+    <div id="modalEquipa" class="modal">
+        <div class="modal-content">
+            <span id="fecharModal" style="float:right; cursor:pointer; font-weight:bold;">&times;</span>
+            <h2>Dados do Autor</h2>
+            <p>Nome: António Francisco Hacombo</p>
+            <p>Número: 927057603</p>
+            <p>Turma: 4ºAno </p>
+        </div>
+    </div>
+
+    <!-- 3. Ligação ao ficheiro JavaScript -->
+    <script src="index.js" defer></script>
+    
+    <!--4. Rodapé -->
+    <section>
+        <footer >
+    	<h2>Informações adicionais</h2>
+    	<p><strong> E-mail:</strong>
+    		<a href="mailto:franciscotoniohacombo@gmail.com">
+    		franciscotoniohacombo@gmail.com</a>
+    		<p><strong>TEL.:</strong>+244 927057603</p>
+    		
+    	</p>
+
+    	<p><strong>Instituição</strong> UNINBE-FCSH</p>
+    	<p class="copyright"> ©2026- Website Académico</p>
+    </footer>
+</section>
+</body>
+</html>
